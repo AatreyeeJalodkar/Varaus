@@ -1,0 +1,156 @@
+:root{
+    --fs14:14px;
+    --fs15:15px;
+    --fs16:16px;
+    --fs17:17px;
+    --fs19:19px;
+    --fs20:20px;
+    --fs23:23px;
+    --fs24:24px;
+    --fs25:25px;
+    --fs30:30px;
+    --fs32:32px;
+    --fs40:40px;
+    --fs45:45px;
+    --fs50:50px;
+    --fs80:80px;
+    --lh1.8:1.8em;
+    --dark_blue:#283a5e;
+}
+.fs_14{
+    font-size: var(--fs14);
+    letter-spacing: 0.5px;
+}
+.fs_15{
+	font-size:var(--fs15);
+    letter-spacing: 0.5px;
+    line-height: var(--lh1.8em);
+}
+.fs_16{
+    font-size: var(--fs16);
+}
+.fs_17{
+    font-size: var(--fs17);
+}
+.fs_19{
+    font-size: var(--fs19);
+}
+.fs_20{
+    font-size: var(--fs20);
+}
+.fs_23{
+    font-size: var(--fs23);
+    letter-spacing: 0.5px;
+}
+.fs_24{
+    font-size: var(--fs24);
+    letter-spacing: 0.5px;
+}
+.fs_25{
+    font-size: var(--fs25);
+    letter-spacing: 0.5px;
+}
+.fs_30{
+    font-size: var(--fs30);
+}
+.fs_32{
+    font-size: var(--fs32);
+}
+.fs_40{
+    font-size: var(--fs40);
+}
+.fs_45{
+    font-size: var(--fs45);
+}
+.fs_50{
+    font-size: var(--fs50);
+}
+.fs_80{
+    font-size: 80px;
+    line-height: 90px;
+}
+
+.fw-300{
+	font-weight: 300;
+}
+.fw-400{
+	font-weight: 400;
+}
+.fw-500{
+	font-weight: 500;
+}
+.fw-600{
+	font-weight: 600;
+}
+.fw-700{
+	font-weight: 700;
+}
+.fw-800{
+	font-weight: 800;
+}
+.fw-900{
+	font-weight: 900;
+}
+
+@media(max-width:1200px){
+	:root{
+    --fs14:14px;
+    --fs15:15px;
+    --fs16:16px;
+    --fs17:17px;
+    --fs19:19px;
+    --fs23:23px;
+    --fs24:24px;
+    --fs25:25px;
+    --fs30:30px;
+    --fs32:32px;
+    --fs40:40px;
+    --fs45:45px;
+    --fs50:50px;
+    --fs80:50px; 
+    }
+    .fs_80 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    
+}
+
+@media(max-width:991px){
+	:root{
+    --fs14:14px;
+    --fs15:11px;
+    --fs16:16px;
+    --fs17:17px;
+    --fs19:19px;
+    --fs23:23px;
+    --fs24:24px;
+    --fs25:25px;
+    --fs30:30px;
+    --fs32:32px;
+    --fs40:40px;
+    --fs45:40px;
+    --fs50:50px;
+    --fs80:50px;
+    }
+}
+
+@media(max-width:767px){
+	:root{
+    --fs14:14px;
+    --fs15:15px;
+    --fs16:16px;
+    --fs17:17px;
+    --fs19:19px;
+    --fs23:23px;
+    --fs24:24px;
+    --fs25:25px;
+    --fs30:30px;
+    --fs32:32px;
+    --fs40:40px;
+    --fs45:30px;
+    --fs50:30px;
+    --fs80:30px;
+    }
+}
+

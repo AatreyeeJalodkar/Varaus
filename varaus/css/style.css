@@ -1,0 +1,309 @@
+/* Head section start */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Quicksand', sans-serif;
+}
+.head_section{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    left: 0;
+}
+.carousel-caption {
+    right: unset !important;
+    left: 10% !important;
+    bottom: unset;
+    top: 50%;
+    transform: translatey(-50%);
+}
+.location_mail ul {
+    list-style: none;
+}
+.logo img{
+    max-width: 170px;
+}
+.bar{
+    background-color: transparent;
+    border-bottom: 1px solid rgb(255 255 255 / 25%);
+}
+.header-search .search-toggle-btn, .mini-cart .cart-toggle-btn{
+    border-radius: 100%;
+    padding: 8px 13px;
+}
+.call_number img{
+    max-width: 55px;
+    filter: invert(53%) sepia(98%) saturate(628%) hue-rotate(110deg) brightness(95%) contrast(103%);
+}
+/* Head section end */
+/* Hero section start */
+.hero_section{
+    position: relative;
+}
+.hero_section .img_part img{
+    height: 850px;
+    filter: brightness(0.7);
+}
+.hero_section .slider_box::before{
+    content: "";
+    background-color: rgba(40, 58, 94, 0.34);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.carousel-control-prev {
+    left: -41px;
+    height: 98px;
+    top: 404px !important;
+}
+.carousel-control-next{
+    right: 0;
+    height: 98px;
+    top: 404px !important;
+}
+.carousel-control-prev span i , .carousel-control-next span i{
+    border-radius: 50%;
+}
+/* Hero section end */
+/* Date section start */
+.date_box .form-field-input input{
+    border-radius: 50px;
+    padding: 12px 33px;
+    border: 1px solid #ebebeb;
+    width: 100%;
+}
+.date_box .form-field-input input:focus{
+    border: 1px solid #ebebeb;
+    outline: none;
+}
+.date_box .form-field-input select{
+    border-radius: 50px;
+    padding: 14px 29px;
+    border: 1px solid #ebebeb;
+    outline: navajowhite;
+    width: 100%;
+    appearance: none;
+}
+.date_box .boxes .green_btn  input{
+    border-radius: 30px !important;
+}
+/* Date Section end */
+
+/* Welcome to Varaus section   */
+.text_box .list .right_icon{
+    background-color: rgb(0 214 139 / 15%);
+    border-radius: 50%;
+    padding: 3px 5px;
+}
+.booking_button .btn2 a:hover{
+    background-color: #262b3e !important;
+}
+ /* Welcome to Varaus section end  */
+
+/* Popular Destination section strat */
+.Popular_Destination_section , .our_client_section{
+    background-color: #F5FBF9;
+}
+.three_img_box .text_box {
+    position: absolute;
+    bottom: 43px;
+    left: 43px;
+    z-index: 9;
+}
+.three_img_box .text_box span i{
+    padding: 4px 7px;
+    border-radius: 100%;
+}
+
+
+/* Popular Destination section  */
+
+/* Our Services section start */
+.service-text h2, .img_text_box .card-body h5 a{
+    color:var(--dark_blue);
+}
+.service-icon{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 100px;
+    margin: 0 auto 30px;
+    border: 1px solid #33dea633;
+}
+.service-icon img{
+    width: auto;
+    height: 62px;
+    filter: invert(53%) sepia(98%) saturate(628%) hue-rotate(110deg) brightness(95%) contrast(103%);
+}
+.service-text p{
+    line-height: 1.7em;
+}
+.card{
+    border: 1px solid #eee !important;
+}
+/* Our Services section end  */
+/* Our Rooms section start  */
+.img_text_box{
+    box-shadow: 0px 9px 42.32px 3.68px rgb(25 38 62 / 15%);
+}
+/* Our Rooms section end */
+/* Full image section strat */
+.image_box {
+    position: relative;
+}
+.banner-video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding-left: 0;
+    list-style: none;
+}
+.banner-img .video-holder {
+    position: relative;
+}
+.img_full ul li a{
+    background-color: #fff;
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    line-height: 72px;
+    display: inline-block;
+}
+/* Full image section end */
+
+/* Our Client's Quote section start */
+.slider_part .box{
+    border-bottom: 2px solid #00d690;
+}
+.slider_part .ratting img{
+    height: 100%;
+    width: 120px;
+}
+.client_info .client_img img{
+    border-radius: 50%;
+}
+/* Our Client's Quote section end */
+
+/* Our Latest News section start */
+.threee_img_box .date{
+    min-width: 90px;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    border-radius: 50px;
+}
+/* Our Latest News section end */
+
+/* Footer section start */
+.logo_img img{
+    max-width: 170px;
+}
+.footer_part{
+    background-color: #262b3e;
+}
+.footer_part .social-icons a{
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.email input{
+    height: 55px;
+    background-color: #262b3e;
+}
+.email input:focus{
+    background-color: #262b3e;
+}
+.footer_part .para p , .footer_part .Popular_Destination_box ul li a, .footer_part .text p {
+    color:#cdced0;
+}
+.email_button{
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    z-index: 999;      
+}
+.email_button .e_btn i{
+    font-size: 30px;
+} 
+.girl_photo img {
+    height: 78px;
+}
+/* Footer section end */
+
+.video-holder a:after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border-radius: 75px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: spineer 2s 1.5s infinite;
+}
+@keyframes spineer {
+    from {
+        -webkit-box-shadow: 0 0 0 0 rgba(205, 33, 29, 0.99);
+        box-shadow: 0 0 0 0 rgba(0, 214, 144, 0.99);
+    }
+
+    to {
+        -webkit-box-shadow: 0 0 0 45px rgba(205, 33, 29, 0.01);
+        box-shadow: 0 0 0 45px rgba(0, 214, 144, 0.01);
+    }
+}
+
+.common_text_img:hover::after,.common_text_img:hover::before{
+    opacity: 0.9;
+}
+.common_text_img::before,.common_text_img::after {
+    content: "";
+    background: -webkit-linear-gradient(top, transparent 28%, #004e35);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.common_text_img {
+    position: relative;
+}
+.common_text_img::after {
+    background: -webkit-linear-gradient(top, #00d38e 20%, #1e1f2c);
+}
+ul.form-table li {
+    width: calc(100%/5 - 16px);
+}
+ul.form-table.navbar-nav.navbar-expand-sm {
+    flex-flow: wrap;
+    width: 100%;
+    grid-gap: 20px;
+}
+.boxes {
+    width: 100%;
+    max-width: 100%;
+}
+section#date_data {
+    margin-top: -53px;
+    position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}

@@ -1,0 +1,52 @@
+@media(min-width:1681px){
+    
+}
+
+@media(max-width:1200px){
+    .call_number {
+        display: none;
+    }
+    .cont_common {
+        justify-content: center;
+    }
+    ul.form-table li {
+        width: calc(100%/4 - 15px);
+    }
+
+}
+
+@media(max-width:991px){
+    .head_section .top_head_block{
+        justify-content: center;
+    }
+    .contact-social {
+        display: none;
+    }
+    ul.form-table li {
+        width: calc(100%/1 - 10px);
+    }
+    .girl_photo img {
+        height: 104px;
+    }
+    .home_bar{
+        order:2
+    }
+   
+}
+
+@media(max-width:767px){
+    .girl_photo img {
+        height: 149px;
+        width: 152px;
+    }
+}
+
+@media(max-width:575px){
+    .search_bar {
+        display: none;
+    }
+    .girl_photo img {     
+        height: 109px;
+    }
+}
+
